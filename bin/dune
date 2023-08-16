@@ -1,0 +1,6 @@
+(executable
+ (public_name caqqy)
+ (modes byte)
+ (name main)
+ (libraries caqqy base caqti caqti-lwt caqti-driver-sqlite3)
+ (preprocess (pps lwt_ppx ppx_deriving.show)))
